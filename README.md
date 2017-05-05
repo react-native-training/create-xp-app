@@ -1,5 +1,3 @@
-# create-xp-app
-
 ![create-xp-app](http://reactnative.training/createxpapp.png)
 
 ### [ReactXP](https://github.com/Microsoft/reactxp)  Project Generator
