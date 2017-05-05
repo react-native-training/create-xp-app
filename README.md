@@ -4,8 +4,6 @@
 
 This app works on React Native (iOS, Android, Windows) and web. Most of the app's code is contained in App.tsx.
 
-The commands in the instructions below assume you are in the root of this repo.
-
 ## To get started, install the create-xp-app cli globally   
 ```
 npm i -g create-xp-app
