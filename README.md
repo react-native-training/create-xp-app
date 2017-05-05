@@ -6,14 +6,43 @@ This app works on React Native (iOS, Android) and web. Most of the app's code is
 
 The commands in the instructions below assume you are in the root of this repo.
 
-Initial Setup
+## To create a new ReactXP app
 
-Run `npm install` or `yarn`. This fetches the dependencies.
+1. Run create-xp-app new <projectName>   
+```
+create-xp-app new MyProject
+```
 
-Run npm run web-watch. This compiles the TypeScript code and recompiles it whenever any files are changed.
-Open index.html in your browser to view the result.
-Building for React Native
+2. Install dependencies   
+```
+npm install or yarn
+```
 
-Run `npm run rn-watch`. This compiles the TypeScript code and recompiles it whenever any files are changed.
-In another command prompt run `npm start`. This starts the React Native Packager.
-Use Xcode or Android Studio to build and deploy the native app code just like you would with any other React Native project.
+### To run on web:   
+
+1. Run npm run web-watch   
+```
+npm run web-watch
+```
+
+This compiles the TypeScript code and recompiles it whenever any files are changed.
+
+2. Open index.html in your browser to view the result.
+
+### Building for React Native (iOS, Android, Windows)   
+
+1. Run npm run rn-watch   
+```
+npm run rn-watch  
+``` 
+
+This compiles the TypeScript code and recompiles it whenever any files are changed.
+
+2. In another command prompt run npm start   
+```
+npm start
+```
+
+This starts the React Native Packager.
+
+Use the command line, Xcode or Android Studio to build and deploy the native app code just like you would with any other React Native project.
