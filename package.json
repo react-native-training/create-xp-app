@@ -1,6 +1,6 @@
 {
   "name": "create-xp-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "react xp project generator",
   "main": "index.js",
   "bin": {
@@ -11,6 +11,7 @@
     "build-source": "node build.js"
   },
   "author": "Nader Dabit",
+  "repository": "https://github.com/dabit3/create-xp-app.git",
   "license": "ISC",
   "dependencies": {
     "shelljs": "^0.7.7",
