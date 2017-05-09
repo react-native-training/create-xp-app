@@ -1,4 +1,4 @@
-![create-xp-app](http://reactnative.training/createxpapp.png)
+![create-xp-app](http://reactnative.training/createxpapp2.png)
 
 ### [ReactXP](https://github.com/Microsoft/reactxp)  Project Generator
 
