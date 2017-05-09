@@ -21,6 +21,9 @@ create-xp-app new MyProject
 npm install or yarn
 ```
 
+![cli](http://reactnative.training/figlett.jpg)
+
+
 ### To run on web:   
 
 1. Run npm run web-watch   
