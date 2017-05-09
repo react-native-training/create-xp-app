@@ -21,7 +21,7 @@ create-xp-app new MyProject
 npm install or yarn
 ```
 
-![cli](http://reactnative.training/figlett2.jpg)
+![cli](http://reactnative.training/figlett3.jpg)
 
 
 ### To run on web:   
