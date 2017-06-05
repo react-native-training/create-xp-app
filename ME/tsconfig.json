@@ -1,0 +1,25 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "declaration": false,
+    "noResolve": false,
+    "jsx": "react",
+    "reactNamespace": "RX",
+    "module": "commonjs",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": "./dist/",
+    "lib": ["es2015", "dom"],
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

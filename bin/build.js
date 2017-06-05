@@ -43,7 +43,7 @@ const installPackages = () => {
 }
 
 const build = (appName) => {
-  cp('-r', __dirname + '/../node_modules/rxapp/.', appName);
+  cp('-r', __dirname + '/../src/.', appName);
   console.log('----------------------------------------------------------');
   figlet.text('React XP', {
     font: 'Graffiti'

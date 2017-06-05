@@ -1,6 +1,6 @@
 {
   "name": "create-xp-app",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "react xp project generator",
   "main": "index.js",
   "bin": {
@@ -11,11 +11,9 @@
     "build-source": "node build.js"
   },
   "author": "Nader Dabit",
-  "repository": "https://github.com/dabit3/create-xp-app.git",
   "license": "ISC",
   "dependencies": {
     "figlet": "^1.2.0",
-    "reactXPTest": "https://github.com/react-native-training/reactxp-starter.git",
     "shelljs": "^0.7.7"
   },
   "devDependencies": {

@@ -11,9 +11,9 @@ npm i -g create-xp-app
 
 ## To create a new ReactXP app
 
-1. Run create-xp-app new <projectName>   
+1. Run create-xp-app <projectName>   
 ```
-create-xp-app new MyProject
+create-xp-app MyProject
 ```
 
 
