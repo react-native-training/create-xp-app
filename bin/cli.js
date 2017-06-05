@@ -12,8 +12,6 @@ program
   .usage('<keywords>')
   .parse(process.argv);
 
-console.log('program.args:', program.args)
-
 if (program.args.length > 0) {
   spawn(build(program.args[0]), { shell: true, stdio: 'inherit' });
 } else if (program.args.length < 1) {
