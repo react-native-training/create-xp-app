@@ -16,10 +16,6 @@ npm i -g create-xp-app
 create-xp-app new MyProject
 ```
 
-2. Install dependencies   
-```
-npm install or yarn
-```
 
 ![cli](http://reactnative.training/figlett4.jpg)
 
