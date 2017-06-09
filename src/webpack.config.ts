@@ -1,10 +1,14 @@
 import * as webpack from 'webpack';
 
 const config: webpack.Configuration = {
-    entry: "./src/index.tsx",
+    entry: [
+        'react-hot-loader/patch',
+        "./src/index.tsx"
+    ],
     output: {
         filename: "bundle.js",
-        path: __dirname + "/dist"
+        path: __dirname + "/dist",
+        publicPath: "/dist"
     },
 
     // Enable sourcemaps for debugging webpack's output.
@@ -18,7 +22,10 @@ const config: webpack.Configuration = {
     module: {
         loaders: [
             // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
-            { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
+            { test: /\.tsx?$/, loaders: [
+                "react-hot-loader/webpack",
+                "awesome-typescript-loader"
+            ]},
         ]
     },
 };
