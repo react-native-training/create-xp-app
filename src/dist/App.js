@@ -8,60 +8,56 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var RX = require("reactxp");
+var MainPanel = require("./MainPanel");
+var SecondPanel = require("./SecondPanel");
+var NavigationRouteId;
+(function (NavigationRouteId) {
+    NavigationRouteId[NavigationRouteId["MainPanel"] = 0] = "MainPanel";
+    NavigationRouteId[NavigationRouteId["SecondPanel"] = 1] = "SecondPanel";
+})(NavigationRouteId || (NavigationRouteId = {}));
 var styles = {
-    container: RX.Styles.createViewStyle({
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
+    navCardStyle: RX.Styles.createViewStyle({
         backgroundColor: '#f5fcff'
-    }),
-    helloWorld: RX.Styles.createTextStyle({
-        fontSize: 48,
-        fontWeight: 'bold',
-        marginBottom: 28
-    }),
-    welcome: RX.Styles.createTextStyle({
-        fontSize: 32,
-        marginBottom: 12
-    }),
-    instructions: RX.Styles.createTextStyle({
-        fontSize: 16,
-        color: '#aaa',
-        marginBottom: 40
-    }),
-    docLink: RX.Styles.createLinkStyle({
-        fontSize: 16,
-        color: 'blue'
     })
 };
 var App = (function (_super) {
     __extends(App, _super);
     function App() {
-        var _this = _super.call(this) || this;
-        _this._translationValue = new RX.Animated.Value(-100);
-        _this._animatedStyle = RX.Styles.createAnimatedTextStyle({
-            transform: [
-                {
-                    translateY: _this._translationValue
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this._onNavigatorRef = function (navigator) {
+            _this._navigator = navigator;
+        };
+        _this._renderScene = function (navigatorRoute) {
+            switch (navigatorRoute.routeId) {
+                case NavigationRouteId.MainPanel:
+                    return RX.createElement(MainPanel, { onPressNavigate: _this._onPressNavigate });
+                case NavigationRouteId.SecondPanel:
+                    return RX.createElement(SecondPanel, { onNavigateBack: _this._onPressBack });
+            }
+            return null;
+        };
+        _this._onPressNavigate = function () {
+            _this._navigator.push({
+                routeId: NavigationRouteId.SecondPanel,
+                sceneConfigType: RX.Types.NavigatorSceneConfigType.FloatFromRight,
+                customSceneConfig: {
+                    hideShadow: true
                 }
-            ]
-        });
+            });
+        };
+        _this._onPressBack = function () {
+            _this._navigator.pop();
+        };
         return _this;
     }
     App.prototype.componentDidMount = function () {
-        var animation = RX.Animated.timing(this._translationValue, {
-            toValue: 0,
-            easing: RX.Animated.Easing.OutBack(),
-            duration: 500
-        });
-        animation.start();
+        this._navigator.immediatelyResetRouteStack([{
+                routeId: NavigationRouteId.MainPanel,
+                sceneConfigType: RX.Types.NavigatorSceneConfigType.Fade
+            }]);
     };
     App.prototype.render = function () {
-        return (RX.createElement(RX.View, { style: styles.container },
-            RX.createElement(RX.Animated.Text, { style: [styles.helloWorld, this._animatedStyle] }, "Hello World"),
-            RX.createElement(RX.Text, { style: styles.welcome }, "Welcome to ReactXP"),
-            RX.createElement(RX.Text, { style: styles.instructions }, "Edit App.tsx to get started"),
-            RX.createElement(RX.Link, { style: styles.docLink, url: 'https://microsoft.github.io/reactxp/docs' }, "View ReactXP documentation")));
+        return (RX.createElement(RX.Navigator, { ref: this._onNavigatorRef, renderScene: this._renderScene, cardStyle: styles.navCardStyle }));
     };
     return App;
 }(RX.Component));

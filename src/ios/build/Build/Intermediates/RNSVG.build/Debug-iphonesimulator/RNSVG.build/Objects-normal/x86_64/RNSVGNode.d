@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/RNSVGNode.m \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/RNSVGNode.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Utils/RNSVGCGFCRule.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Elements/RNSVGSvgView.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Brushes/RNSVGBrushConverter.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Utils/RCTConvert+RNSVG.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Utils/RNSVGCGFloatArray.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Text/RNSVGTextFrame.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Brushes/RNSVGBrushType.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/RNSVGContainer.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Elements/RNSVGClipPath.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Elements/RNSVGGroup.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/RNSVGRenderable.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Brushes/RNSVGBrush.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native-svg/ios/Utils/RNSVGPercentageConverter.h

@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTFrameAnimation.m \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTFrameAnimation.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTAnimationDriver.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native/Libraries/NativeAnimation/RCTAnimationUtils.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/naderdabit/Opensource/reactxp/samples/hello-world/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h

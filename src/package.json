@@ -1,12 +1,14 @@
 {
-	"name": "rxapp",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
+  "name": "rxp",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
     "web-watch": "webpack --progress --colors --watch",
     "rn-watch": "tsc --watch",
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "install-deps": "npm i"
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios"
   },
   "devDependencies": {
     "@types/node": "^7.0.12",
@@ -18,15 +20,12 @@
     "webpack": "2.2.1"
   },
   "dependencies": {
-    "reactxp": "0.42.0-rc.3",
+    "reactxp": "0.42.0-rc.9",
     "react": "^15.4.1",
-		"react-native": "^0.42.0",
-    "react-addons-perf": "15.5.0-rc.2",
-    "react-addons-test-utils": "15.5.1",
-    "react-dom": "15.5.3",
-   "react-native-windows": "^0.33.0"
-  },
-	"jest": {
-		"preset": "react-native"
-	}
+    "react-dom": "^15.4.1",
+    "react-native": "^0.42.0",
+    "react-native-windows": "^0.33.0",
+    "reactxp-imagesvg": "^0.2.1",
+    "reactxp-video": "^0.1.3"
+  }
 }
