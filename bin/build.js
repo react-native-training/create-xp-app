@@ -49,9 +49,10 @@ const build = (appName) => {
     font: 'Graffiti'
   }, function(err, data) {
     if (err) {
-        return;
+      console.log(chalk.white.bold('React XP'));
+    } else {
+      console.log(data);
     }
-    console.log(data);
     console.log('----------------------------------------------------------');
     console.log(chalk.green.bold('Welcome to ReactXP'));
     console.log('----------------------------------------------------------');
